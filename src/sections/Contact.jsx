@@ -23,20 +23,32 @@ function useInView(threshold = 0.15) {
 const contactDetails = [
   {
     label: "Location",
-    value: "Mukkam, Kozhikode",
+    value: "Manjeri & Mukkam",
     sub: "Kerala, India",
     icon: "◎",
   },
   {
     label: "Phone",
-    value: "+91 7559910793",
+    value: "+91 9539955073",
     sub: "Call / WhatsApp Available",
     icon: "◎",
   },
   {
     label: "Instagram",
-    value: "@lucarlo_clothing_store",
+    value: "@manifest_fashion.in",
     sub: "Follow for latest arrivals",
+    icon: "◎",
+  },
+  {
+    label: "Service",
+    value: "We Deliver All India",
+    sub: "Fast dispatch available",
+    icon: "◎",
+  },
+  {
+    label: "Policy",
+    value: "No Exchange / No Refund",
+    sub: "Please confirm before ordering",
     icon: "◎",
   },
 ];
@@ -85,12 +97,12 @@ export default function Contact() {
           </p>
 
           <h2 className="text-5xl font-light text-black">
-            Visit <em className="text-gray-500">Lucarlo</em>
+            Visit <em className="text-gray-500">manifest</em>
           </h2>
 
           <p className="text-gray-500 max-w-md mt-6">
             Discover premium shirts, T-shirts, denim, and modern menswear
-            collections at Lucarlo. Visit our store or contact us for latest
+            collections at manifest. Visit our store or contact us for latest
             arrivals and availability across India.
           </p>
         </div>
@@ -192,7 +204,7 @@ export default function Contact() {
         {/* FOOTER BAND */}
         <div className="mt-24 flex flex-wrap justify-between items-center gap-6 border-t pt-8">
           <span className="tracking-widest text-lg">
-            LUCARLO
+            manifest
           </span>
 
           <nav className="flex gap-6 text-sm">
@@ -203,7 +215,7 @@ export default function Contact() {
           </nav>
 
           <span className="text-gray-500 text-xs">
-            © {new Date().getFullYear()} Lucarlo — Kozhikode, Kerala
+            © {new Date().getFullYear()} manifest — Kozhikode, Kerala
           </span>
         </div>
 

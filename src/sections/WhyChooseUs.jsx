@@ -11,7 +11,7 @@ const features = [
   {
     number: "02",
     title: "Modern Everyday Fits",
-    desc: "From casual outings to office-ready looks, Lucarlo offers versatile styles designed for modern lifestyles.",
+    desc: "From casual outings to office-ready looks, Manifest offers versatile styles designed for modern lifestyles.",
     image: "https://images.unsplash.com/photo-1605518216938-7c31b7b14ad0?w=600&q=80",
     tag: "Style",
   },
@@ -25,7 +25,7 @@ const features = [
   {
     number: "04",
     title: "Reliable Quality Selection",
-    desc: "Every piece available at Lucarlo is selected to meet consistent quality expectations you can rely on.",
+    desc: "Every piece available at Manifest is selected to meet consistent quality expectations you can rely on.",
     image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=600&q=80",
     tag: "Quality",
   },
@@ -200,12 +200,12 @@ export default function WhyChooseUs() {
           </p>
 
           <h2 className="text-5xl font-light text-black">
-            Why <em className="text-gray-500">Lucarlo</em><br />
+            Why <em className="text-gray-500">Manifest</em><br />
             stands apart
           </h2>
 
           <p className="text-gray-500 max-w-md mt-6">
-            At Lucarlo, we focus on offering comfortable fabrics, modern styles,
+            At Manifest, we focus on offering comfortable fabrics, modern styles,
             and reliable quality so every customer can find clothing that fits
             both their lifestyle and confidence.
           </p>
